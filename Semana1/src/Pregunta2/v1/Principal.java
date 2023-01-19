@@ -17,7 +17,7 @@ public class Principal {
 		System.out.println(imp4);
 		
 		//Este contador me permite validar que solo se halla creado una instancia de impresora
-		System.out.println(Impresora.contador); //1
+		System.out.println(Impresora.getContador()); //1
 
 	}
 

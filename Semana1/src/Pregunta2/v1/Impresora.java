@@ -5,7 +5,7 @@ public class Impresora {
 	
 	//Atributos de clase para regular el número de instancias
 	static private Impresora impresora;
-	static int contador;
+	static private int contador;
 	
 	private String nombre;
 	
@@ -23,5 +23,10 @@ public class Impresora {
 		
 		//Si impresora 
 		return impresora;
+	}
+	
+	//Método para poder obtener el valor de contador
+	static public int getContador() {
+		return contador;
 	}
 }
