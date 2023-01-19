@@ -10,12 +10,12 @@ public class Rectangulo extends FiguraAbstract{
 	//Sobre escritura del método calcularArea
 	@Override
 	public int calcularArea() {
-		return x*y;
+		return getx()*gety();
 	}
 	
 	//Sobreescritura de nombre del objeto
 	@Override
 	public String toString() {
-		return "Es un rectangulo de "+ x +" y "+ y +" por lado";
+		return "Es un rectangulo de "+ getx() +" y "+ gety() +" por lado";
 	}
 }
