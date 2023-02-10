@@ -41,7 +41,7 @@
 					<th>Nombre</th>
 					<th>Tipo 1</th>
 					<th>Tipo 2</th>
-					<th>Acción</th>
+					<th>Accion</th>
 				</tr>
 				
 				<!-- loop over and print our customers -->

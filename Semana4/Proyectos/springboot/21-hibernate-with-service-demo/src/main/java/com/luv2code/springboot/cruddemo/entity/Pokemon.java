@@ -31,7 +31,7 @@ public class Pokemon {
 	private String tipo1;
 	
 	@Column(name="Tipo2")
-	private String email;
+	private String tipo2;
 		
 }
 

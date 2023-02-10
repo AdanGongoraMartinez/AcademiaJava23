@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.luv2code.springdemo</groupId>
-	<artifactId>spring-crm-rest</artifactId>
+	<artifactId>spring-crm-rest-pokemon</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
